@@ -1,2 +1,2 @@
 # DomicoUI 
-# Screen Design Project using Zeplin
+# Screen Design Project using Zeplin Screen
