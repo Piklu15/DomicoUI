@@ -28,6 +28,15 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    <key>UIAppFonts</key>
+    <array>
+        <string>yugothib.ttf</string>
+        <string>yugothim.otf</string>
+        <string>hirakakupro-w6.otf</string>
+        <string>NotoSansCJKjp-Bold.otf</string>
+        <string>NotoSansCJKjp-Medium.otf</string>
+        <string>NotoSansCJKjp-Regular.otf</string>
+    </array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

@@ -14,6 +14,11 @@
 		4AB293FC21B0F8CE002D8FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB293FA21B0F8CE002D8FF6 /* LaunchScreen.storyboard */; };
 		4AB2940721B0F8CE002D8FF6 /* DomicoUIDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2940621B0F8CE002D8FF6 /* DomicoUIDesignTests.swift */; };
 		4AB2941221B0F8CE002D8FF6 /* DomicoUIDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2941121B0F8CE002D8FF6 /* DomicoUIDesignUITests.swift */; };
+		91C832D321B507B5004ABC22 /* hirakakupro-w6.otf in Resources */ = {isa = PBXBuildFile; fileRef = 912759C021B5073B001F5E02 /* hirakakupro-w6.otf */; };
+		91C832D421B507B5004ABC22 /* NotoSansCJKjp-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 912759C221B5073C001F5E02 /* NotoSansCJKjp-Bold.otf */; };
+		91C832D521B507B5004ABC22 /* NotoSansCJKjp-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 912759BE21B50739001F5E02 /* NotoSansCJKjp-Regular.otf */; };
+		91C832D621B507B5004ABC22 /* yugothib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 912759C121B5073B001F5E02 /* yugothib.ttf */; };
+		91C832D721B507B5004ABC22 /* yugothim.otf in Resources */ = {isa = PBXBuildFile; fileRef = 912759BF21B5073A001F5E02 /* yugothim.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		4AB2940D21B0F8CE002D8FF6 /* DomicoUIDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomicoUIDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB2941121B0F8CE002D8FF6 /* DomicoUIDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomicoUIDesignUITests.swift; sourceTree = "<group>"; };
 		4AB2941321B0F8CE002D8FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912759BE21B50739001F5E02 /* NotoSansCJKjp-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Regular.otf"; sourceTree = "<group>"; };
+		912759BF21B5073A001F5E02 /* yugothim.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yugothim.otf; sourceTree = "<group>"; };
+		912759C021B5073B001F5E02 /* hirakakupro-w6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hirakakupro-w6.otf"; sourceTree = "<group>"; };
+		912759C121B5073B001F5E02 /* yugothib.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yugothib.ttf; sourceTree = "<group>"; };
+		912759C221B5073C001F5E02 /* NotoSansCJKjp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		4AB293F021B0F8CD002D8FF6 /* DomicoUIDesign */ = {
 			isa = PBXGroup;
 			children = (
+				912759C021B5073B001F5E02 /* hirakakupro-w6.otf */,
+				912759C221B5073C001F5E02 /* NotoSansCJKjp-Bold.otf */,
+				912759BE21B50739001F5E02 /* NotoSansCJKjp-Regular.otf */,
+				912759C121B5073B001F5E02 /* yugothib.ttf */,
+				912759BF21B5073A001F5E02 /* yugothim.otf */,
 				4AB293F121B0F8CD002D8FF6 /* AppDelegate.swift */,
 				4AB293F321B0F8CD002D8FF6 /* ViewController.swift */,
 				4AB293F521B0F8CD002D8FF6 /* Main.storyboard */,
@@ -229,6 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C832D321B507B5004ABC22 /* hirakakupro-w6.otf in Resources */,
+				91C832D421B507B5004ABC22 /* NotoSansCJKjp-Bold.otf in Resources */,
+				91C832D521B507B5004ABC22 /* NotoSansCJKjp-Regular.otf in Resources */,
+				91C832D621B507B5004ABC22 /* yugothib.ttf in Resources */,
+				91C832D721B507B5004ABC22 /* yugothim.otf in Resources */,
 				4AB293FC21B0F8CE002D8FF6 /* LaunchScreen.storyboard in Resources */,
 				4AB293F921B0F8CE002D8FF6 /* Assets.xcassets in Resources */,
 				4AB293F721B0F8CD002D8FF6 /* Main.storyboard in Resources */,

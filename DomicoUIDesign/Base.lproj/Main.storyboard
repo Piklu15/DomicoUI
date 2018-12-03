@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FQr-xs-J24">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FQr-xs-J24">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansCJKjp-Regular.otf">
+            <string>NotoSansCJKjp-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="1f1-ah-0FE">
@@ -1217,6 +1221,186 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8LO-Ki-k1l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-532" y="-621.13943028485767"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FJ5-HK-kj7">
+            <objects>
+                <viewController id="hHL-uG-UXx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="emG-q4-vqA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SQI-vS-iUj">
+                                <rect key="frame" x="0.0" y="20" width="375" height="71"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="データを修正し、申請してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXa-Iz-ZOk">
+                                        <rect key="frame" x="76" y="25" width="223.5" height="21"/>
+                                        <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="GO4-I0-emW"/>
+                                    <constraint firstItem="lXa-Iz-ZOk" firstAttribute="centerX" secondItem="SQI-vS-iUj" secondAttribute="centerX" id="cX5-m9-nqb"/>
+                                    <constraint firstItem="lXa-Iz-ZOk" firstAttribute="centerY" secondItem="SQI-vS-iUj" secondAttribute="centerY" id="gnM-Ht-bvA"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="8LP-MW-kxK">
+                                <rect key="frame" x="0.0" y="91" width="375" height="288"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U9B-ox-ouQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="氏名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7LZ-JV-4X7">
+                                                <rect key="frame" x="16" y="19" width="24" height="18"/>
+                                                <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="共立　太郎" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="17p-2Y-Ja5">
+                                                <rect key="frame" x="120" y="17.5" width="239" height="21"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="17p-2Y-Ja5" firstAttribute="centerY" secondItem="7LZ-JV-4X7" secondAttribute="centerY" id="Nqi-mK-EfS"/>
+                                            <constraint firstItem="17p-2Y-Ja5" firstAttribute="leading" secondItem="7LZ-JV-4X7" secondAttribute="trailing" constant="80" id="gHS-cI-2bM"/>
+                                            <constraint firstItem="7LZ-JV-4X7" firstAttribute="centerY" secondItem="U9B-ox-ouQ" secondAttribute="centerY" id="k4m-yP-aaS"/>
+                                            <constraint firstAttribute="trailing" secondItem="17p-2Y-Ja5" secondAttribute="trailing" constant="16" id="rU1-nw-3vi"/>
+                                            <constraint firstItem="7LZ-JV-4X7" firstAttribute="leading" secondItem="U9B-ox-ouQ" secondAttribute="leading" constant="16" id="vDs-4Y-IhR"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CdS-TL-aTX">
+                                        <rect key="frame" x="0.0" y="58" width="375" height="56"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="フリガナ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzI-kp-4B4">
+                                                <rect key="frame" x="16" y="19" width="48" height="18"/>
+                                                <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="キョウリツ　タロウ" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rV6-bV-JWh">
+                                                <rect key="frame" x="120" y="17.5" width="239" height="21"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="rV6-bV-JWh" firstAttribute="centerY" secondItem="kzI-kp-4B4" secondAttribute="centerY" id="MDd-Gj-hHV"/>
+                                            <constraint firstItem="kzI-kp-4B4" firstAttribute="centerY" secondItem="CdS-TL-aTX" secondAttribute="centerY" id="Rwq-Mp-zbV"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qzW-cC-Ab0">
+                                        <rect key="frame" x="0.0" y="116" width="375" height="56"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="メールアドレス" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJh-05-O8E">
+                                                <rect key="frame" x="16" y="19" width="84" height="18"/>
+                                                <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="kyoritsu@kyoritsu.co.jp" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eJE-RJ-aq1">
+                                                <rect key="frame" x="120" y="17.5" width="239" height="21"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="DJh-05-O8E" firstAttribute="centerY" secondItem="qzW-cC-Ab0" secondAttribute="centerY" id="K8W-Vz-0Nc"/>
+                                            <constraint firstItem="eJE-RJ-aq1" firstAttribute="centerY" secondItem="DJh-05-O8E" secondAttribute="centerY" id="eqp-ij-WyK"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOI-t5-D3Z">
+                                        <rect key="frame" x="0.0" y="174" width="375" height="56"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="パスワード" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDe-gU-9gt">
+                                                <rect key="frame" x="16" y="19" width="60" height="18"/>
+                                                <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="********" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tt8-4a-EyT">
+                                                <rect key="frame" x="120" y="17.5" width="239" height="21"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="EDe-gU-9gt" firstAttribute="centerY" secondItem="YOI-t5-D3Z" secondAttribute="centerY" id="EJW-Al-KqH"/>
+                                            <constraint firstItem="tt8-4a-EyT" firstAttribute="centerY" secondItem="EDe-gU-9gt" secondAttribute="centerY" id="s1K-hv-6U0"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PR6-cF-w1k">
+                                        <rect key="frame" x="0.0" y="232" width="375" height="56"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="電話番号(携帯)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5M-op-bmW">
+                                                <rect key="frame" x="16" y="19" width="80.5" height="18"/>
+                                                <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="090 - 0000 - 0000" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fWP-kj-Wvq">
+                                                <rect key="frame" x="120" y="17.5" width="239" height="21"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="NotoSansCJKjp-Regular" family="Noto Sans CJK JP" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="F5M-op-bmW" firstAttribute="centerY" secondItem="PR6-cF-w1k" secondAttribute="centerY" id="EEm-1a-LRp"/>
+                                            <constraint firstItem="fWP-kj-Wvq" firstAttribute="centerY" secondItem="F5M-op-bmW" secondAttribute="centerY" id="in8-Ls-7yN"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kzI-kp-4B4" firstAttribute="leading" secondItem="7LZ-JV-4X7" secondAttribute="leading" id="4Be-7R-RW1"/>
+                                    <constraint firstItem="eJE-RJ-aq1" firstAttribute="height" secondItem="rV6-bV-JWh" secondAttribute="height" id="5im-Az-U17"/>
+                                    <constraint firstAttribute="height" constant="288" id="9vY-YY-9Dz"/>
+                                    <constraint firstItem="fWP-kj-Wvq" firstAttribute="width" secondItem="tt8-4a-EyT" secondAttribute="width" id="ClJ-br-OmW"/>
+                                    <constraint firstItem="tt8-4a-EyT" firstAttribute="width" secondItem="eJE-RJ-aq1" secondAttribute="width" id="E6B-pW-z6a"/>
+                                    <constraint firstItem="fWP-kj-Wvq" firstAttribute="height" secondItem="tt8-4a-EyT" secondAttribute="height" id="J01-O0-Qt0"/>
+                                    <constraint firstItem="eJE-RJ-aq1" firstAttribute="width" secondItem="rV6-bV-JWh" secondAttribute="width" id="SRm-zf-9AJ"/>
+                                    <constraint firstItem="DJh-05-O8E" firstAttribute="leading" secondItem="kzI-kp-4B4" secondAttribute="leading" id="Uya-bg-oIS"/>
+                                    <constraint firstItem="rV6-bV-JWh" firstAttribute="width" secondItem="17p-2Y-Ja5" secondAttribute="width" id="YaO-YS-of5"/>
+                                    <constraint firstItem="EDe-gU-9gt" firstAttribute="leading" secondItem="DJh-05-O8E" secondAttribute="leading" id="ZpI-o4-zV5"/>
+                                    <constraint firstItem="rV6-bV-JWh" firstAttribute="height" secondItem="17p-2Y-Ja5" secondAttribute="height" id="aMd-Rw-iFM"/>
+                                    <constraint firstItem="rV6-bV-JWh" firstAttribute="leading" secondItem="17p-2Y-Ja5" secondAttribute="leading" id="dei-yw-Ys1"/>
+                                    <constraint firstItem="tt8-4a-EyT" firstAttribute="leading" secondItem="eJE-RJ-aq1" secondAttribute="leading" id="dwR-cd-aQT"/>
+                                    <constraint firstItem="F5M-op-bmW" firstAttribute="leading" secondItem="EDe-gU-9gt" secondAttribute="leading" id="jau-8m-IZy"/>
+                                    <constraint firstItem="fWP-kj-Wvq" firstAttribute="leading" secondItem="tt8-4a-EyT" secondAttribute="leading" id="s59-Tq-LHV"/>
+                                    <constraint firstItem="eJE-RJ-aq1" firstAttribute="leading" secondItem="rV6-bV-JWh" secondAttribute="leading" id="sDs-Z2-VoP"/>
+                                    <constraint firstItem="tt8-4a-EyT" firstAttribute="height" secondItem="eJE-RJ-aq1" secondAttribute="height" id="txg-5k-aF6"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="8LP-MW-kxK" firstAttribute="top" secondItem="SQI-vS-iUj" secondAttribute="bottom" id="Kxc-hr-OwK"/>
+                            <constraint firstItem="SQI-vS-iUj" firstAttribute="trailing" secondItem="yLf-sY-YuK" secondAttribute="trailing" id="Lrt-f2-fCD"/>
+                            <constraint firstItem="yLf-sY-YuK" firstAttribute="trailing" secondItem="8LP-MW-kxK" secondAttribute="trailing" id="Oe1-Ls-3E2"/>
+                            <constraint firstItem="SQI-vS-iUj" firstAttribute="top" secondItem="yLf-sY-YuK" secondAttribute="top" id="Rvh-69-DZW"/>
+                            <constraint firstItem="SQI-vS-iUj" firstAttribute="leading" secondItem="yLf-sY-YuK" secondAttribute="leading" id="Z6c-tG-Ddg"/>
+                            <constraint firstItem="8LP-MW-kxK" firstAttribute="leading" secondItem="yLf-sY-YuK" secondAttribute="leading" id="lLd-eK-V6C"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yLf-sY-YuK"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GlX-HK-UKL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2476" y="-856"/>
         </scene>
     </scenes>
     <resources>
