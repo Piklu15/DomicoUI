@@ -1,0 +1,285 @@
+
+/* Class = "UITextField"; text = "共立　太郎"; ObjectID = "17p-2Y-Ja5"; */
+"17p-2Y-Ja5.text" = "共立　太郎";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4Rs-CL-Tcv"; */
+"4Rs-CL-Tcv.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5IT-yD-LEh"; */
+"5IT-yD-LEh.text" = "Label";
+
+/* Class = "UILabel"; text = "リンク"; ObjectID = "6do-8F-qRq"; */
+"6do-8F-qRq.text" = "リンク";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6yA-5N-XEO"; */
+"6yA-5N-XEO.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "70V-Pi-Kzs"; */
+"70V-Pi-Kzs.text" = "Label";
+
+/* Class = "UILabel"; text = "氏名"; ObjectID = "7LZ-JV-4X7"; */
+"7LZ-JV-4X7.text" = "氏名";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7oD-KO-1GD"; */
+"7oD-KO-1GD.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8zI-vh-SyM"; */
+"8zI-vh-SyM.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9oq-LD-kzD"; */
+"9oq-LD-kzD.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BNy-HR-ahQ"; */
+"BNy-HR-ahQ.text" = "Label";
+
+/* Class = "UILabel"; text = "メールアドレス"; ObjectID = "DJh-05-O8E"; */
+"DJh-05-O8E.text" = "メールアドレス";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DXE-uM-D9h"; */
+"DXE-uM-D9h.text" = "Label";
+
+/* Class = "UILabel"; text = "パスワード"; ObjectID = "EDe-gU-9gt"; */
+"EDe-gU-9gt.text" = "パスワード";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ea5-KI-dIt"; */
+"Ea5-KI-dIt.text" = "Label";
+
+/* Class = "UILabel"; text = "電話番号(携帯)"; ObjectID = "F5M-op-bmW"; */
+"F5M-op-bmW.text" = "電話番号(携帯)";
+
+/* Class = "UILabel"; text = "質問1"; ObjectID = "FKB-ZX-33K"; */
+"FKB-ZX-33K.text" = "質問1";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Fui-je-zRi"; */
+"Fui-je-zRi.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GMU-cl-P9C"; */
+"GMU-cl-P9C.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Hpn-cK-gyb"; */
+"Hpn-cK-gyb.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Hv0-SP-MLO"; */
+"Hv0-SP-MLO.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JX8-Ja-phl"; */
+"JX8-Ja-phl.text" = "Label";
+
+/* Class = "UILabel"; text = "質問1"; ObjectID = "KCI-6j-gwJ"; */
+"KCI-6j-gwJ.text" = "質問1";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LA1-l1-fdi"; */
+"LA1-l1-fdi.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LwS-mE-Kgz"; */
+"LwS-mE-Kgz.text" = "Label";
+
+/* Class = "UILabel"; text = "基本データ"; ObjectID = "MRI-At-0Kl"; */
+"MRI-At-0Kl.text" = "基本データ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Mj1-rO-me5"; */
+"Mj1-rO-me5.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Mym-GD-8z5"; */
+"Mym-GD-8z5.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NUe-tl-Iu9"; */
+"NUe-tl-Iu9.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NeF-Mr-gvx"; */
+"NeF-Mr-gvx.text" = "Label";
+
+/* Class = "UILabel"; text = "登録日"; ObjectID = "Nyj-F6-cRS"; */
+"Nyj-F6-cRS.text" = "登録日";
+
+/* Class = "UILabel"; text = "はい"; ObjectID = "O5y-1x-pkE"; */
+"O5y-1x-pkE.text" = "はい";
+
+/* Class = "UILabel"; text = "寮則（利用案内）"; ObjectID = "OUe-2v-ZIf"; */
+"OUe-2v-ZIf.text" = "寮則（利用案内）";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QKs-D6-Bc7"; */
+"QKs-D6-Bc7.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RTf-CL-msG"; */
+"RTf-CL-msG.text" = "Label";
+
+/* Class = "UILabel"; text = "保護者の方"; ObjectID = "RtW-Kg-fEZ"; */
+"RtW-Kg-fEZ.text" = "保護者の方";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Rz3-cZ-iTp"; */
+"Rz3-cZ-iTp.text" = "Label";
+
+/* Class = "UILabel"; text = "0120 - 88 - 1030"; ObjectID = "SED-fd-Hkd"; */
+"SED-fd-Hkd.text" = "0120 - 88 - 1030";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Sak-AG-QdN"; */
+"Sak-AG-QdN.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TEy-Vr-1Ws"; */
+"TEy-Vr-1Ws.text" = "Label";
+
+/* Class = "UILabel"; text = "在館証明書の取り寄せ"; ObjectID = "Ttz-vQ-se6"; */
+"Ttz-vQ-se6.text" = "在館証明書の取り寄せ";
+
+/* Class = "UILabel"; text = "入居者ご本人様"; ObjectID = "V5U-ix-fVK"; */
+"V5U-ix-fVK.text" = "入居者ご本人様";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "W8G-1x-ssZ"; */
+"W8G-1x-ssZ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WHM-Rf-n0w"; */
+"WHM-Rf-n0w.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WIH-4q-ci2"; */
+"WIH-4q-ci2.text" = "Label";
+
+/* Class = "UILabel"; text = "避難場所 / 安否マニュアル"; ObjectID = "WIt-sx-wW7"; */
+"WIt-sx-wW7.text" = "避難場所 / 安否マニュアル";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WQL-wW-Qow"; */
+"WQL-wW-Qow.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XJK-kd-uKz"; */
+"XJK-kd-uKz.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XdF-us-3qM"; */
+"XdF-us-3qM.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aO6-w6-Ahn"; */
+"aO6-w6-Ahn.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bsB-qY-cWJ"; */
+"bsB-qY-cWJ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cLn-0w-uZ4"; */
+"cLn-0w-uZ4.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "co5-Bc-18A"; */
+"co5-Bc-18A.text" = "Label";
+
+/* Class = "UILabel"; text = "2020/09/11"; ObjectID = "cp2-J2-ZkU"; */
+"cp2-J2-ZkU.text" = "2020/09/11";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "d4i-Iw-pFx"; */
+"d4i-Iw-pFx.text" = "Label";
+
+/* Class = "UILabel"; text = "更新日"; ObjectID = "dKa-WM-NBC"; */
+"dKa-WM-NBC.text" = "更新日";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "e6G-lI-JgL"; */
+"e6G-lI-JgL.text" = "Label";
+
+/* Class = "UITextField"; text = "kyoritsu@kyoritsu.co.jp"; ObjectID = "eJE-RJ-aq1"; */
+"eJE-RJ-aq1.text" = "kyoritsu@kyoritsu.co.jp";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ecZ-9Q-7u4"; */
+"ecZ-9Q-7u4.text" = "Label";
+
+/* Class = "UITextField"; text = "090 - 0000 - 0000"; ObjectID = "fWP-kj-Wvq"; */
+"fWP-kj-Wvq.text" = "090 - 0000 - 0000";
+
+/* Class = "UILabel"; text = "マニュアル"; ObjectID = "gI5-vN-mdj"; */
+"gI5-vN-mdj.text" = "マニュアル";
+
+/* Class = "UILabel"; text = "入館時に必要なもの"; ObjectID = "gRA-ed-Y58"; */
+"gRA-ed-Y58.text" = "入館時に必要なもの";
+
+/* Class = "UILabel"; text = "ご実家"; ObjectID = "iH2-AD-thF"; */
+"iH2-AD-thF.text" = "ご実家";
+
+/* Class = "UILabel"; text = "いいえ"; ObjectID = "iuW-Kj-oQR"; */
+"iuW-Kj-oQR.text" = "いいえ";
+
+/* Class = "UILabel"; text = "保険"; ObjectID = "j3R-Ae-AwF"; */
+"j3R-Ae-AwF.text" = "保険";
+
+/* Class = "UILabel"; text = "通販"; ObjectID = "jxr-du-PrW"; */
+"jxr-du-PrW.text" = "通販";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kEe-vx-hp7"; */
+"kEe-vx-hp7.text" = "Label";
+
+/* Class = "UILabel"; text = "確認・申請"; ObjectID = "kmY-rw-2ap"; */
+"kmY-rw-2ap.text" = "確認・申請";
+
+/* Class = "UILabel"; text = "フリガナ"; ObjectID = "kzI-kp-4B4"; */
+"kzI-kp-4B4.text" = "フリガナ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lH5-9F-bkG"; */
+"lH5-9F-bkG.text" = "Label";
+
+/* Class = "UILabel"; text = "基本データ"; ObjectID = "lVd-r1-0sn"; */
+"lVd-r1-0sn.text" = "基本データ";
+
+/* Class = "UILabel"; text = "データを修正し、申請してください"; ObjectID = "lXa-Iz-ZOk"; */
+"lXa-Iz-ZOk.text" = "データを修正し、申請してください";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "n8c-vO-QcJ"; */
+"n8c-vO-QcJ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nRR-97-Tld"; */
+"nRR-97-Tld.text" = "Label";
+
+/* Class = "UILabel"; text = "管理室電話番号"; ObjectID = "nyS-QZ-vfg"; */
+"nyS-QZ-vfg.text" = "管理室電話番号";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "odA-WB-60U"; */
+"odA-WB-60U.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "omq-Od-fNW"; */
+"omq-Od-fNW.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pRQ-Rt-fNm"; */
+"pRQ-Rt-fNm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qeG-Vw-Q2P"; */
+"qeG-Vw-Q2P.text" = "Label";
+
+/* Class = "UITextField"; text = "キョウリツ　タロウ"; ObjectID = "rV6-bV-JWh"; */
+"rV6-bV-JWh.text" = "キョウリツ　タロウ";
+
+/* Class = "UILabel"; text = "結核性の病気（例：肺結核、胸膜炎など）に掛かったことはありますか？結核"; ObjectID = "s6d-TZ-AIe"; */
+"s6d-TZ-AIe.text" = "結核性の病気（例：肺結核、胸膜炎など）に掛かったことはありますか？結核";
+
+/* Class = "UILabel"; text = "お部屋について"; ObjectID = "sda-Xq-eew"; */
+"sda-Xq-eew.text" = "お部屋について";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ssm-IJ-gLV"; */
+"ssm-IJ-gLV.text" = "Label";
+
+/* Class = "UILabel"; text = "契約タイプ"; ObjectID = "taH-z1-XBf"; */
+"taH-z1-XBf.text" = "契約タイプ";
+
+/* Class = "UILabel"; text = "申請"; ObjectID = "tcN-QP-Omy"; */
+"tcN-QP-Omy.text" = "申請";
+
+/* Class = "UITextField"; text = "********"; ObjectID = "tt8-4a-EyT"; */
+"tt8-4a-EyT.text" = "********";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "usd-CJ-nJc"; */
+"usd-CJ-nJc.text" = "Label";
+
+/* Class = "UILabel"; text = "私のプロフィール"; ObjectID = "vYY-4j-aSw"; */
+"vYY-4j-aSw.text" = "私のプロフィール";
+
+/* Class = "UILabel"; text = "2020/09/11"; ObjectID = "vaG-0j-TN4"; */
+"vaG-0j-TN4.text" = "2020/09/11";
+
+/* Class = "UILabel"; text = "追加プロフィール"; ObjectID = "wjP-Yh-ztr"; */
+"wjP-Yh-ztr.text" = "追加プロフィール";
+
+/* Class = "UILabel"; text = "結核性の病気（例：肺結核、胸膜炎など）に掛かったことはありますか？結核"; ObjectID = "x2k-20-4VD"; */
+"x2k-20-4VD.text" = "結核性の病気（例：肺結核、胸膜炎など）に掛かったことはありますか？結核";
+
+/* Class = "UILabel"; text = "バイト届け"; ObjectID = "yGJ-Ti-Qq5"; */
+"yGJ-Ti-Qq5.text" = "バイト届け";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "z50-Mb-ulq"; */
+"z50-Mb-ulq.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zbA-B2-ffG"; */
+"zbA-B2-ffG.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zkI-oM-nHe"; */
+"zkI-oM-nHe.text" = "Label";
