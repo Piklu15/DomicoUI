@@ -1405,21 +1405,6 @@
             <point key="canvasLocation" x="3958" y="-621"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="B5e-F1-o1H">
-            <objects>
-                <viewController id="IBq-US-kNn" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mGi-Nu-5Q3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="xeW-cA-Jy9"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cwT-l4-AGX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4933.6000000000004" y="-624.38423645320199"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="6KI-JD-kjs">
             <objects>
                 <viewController id="2ed-Za-N2E" sceneMemberID="viewController">
