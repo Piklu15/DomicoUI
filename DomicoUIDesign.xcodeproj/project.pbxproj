@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A2C4F7021D5F77700064CFA /* NotoSansCJKjp-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C4F6A21D5F77700064CFA /* NotoSansCJKjp-Bold.otf */; };
+		4A2C4F7121D5F77700064CFA /* yugothim.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C4F6B21D5F77700064CFA /* yugothim.otf */; };
+		4A2C4F7221D5F77700064CFA /* NotoSansCJKjp-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C4F6C21D5F77700064CFA /* NotoSansCJKjp-Regular.otf */; };
+		4A2C4F7321D5F77700064CFA /* hirakakupro-w6.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C4F6D21D5F77700064CFA /* hirakakupro-w6.otf */; };
+		4A2C4F7421D5F77700064CFA /* yugothib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C4F6E21D5F77700064CFA /* yugothib.ttf */; };
+		4A2C4F7521D5F77700064CFA /* NotoSansCJKjp-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2C4F6F21D5F77700064CFA /* NotoSansCJKjp-Medium.otf */; };
+		4A2C4F7B21D5F8CA00064CFA /* MenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C4F7A21D5F8CA00064CFA /* MenuItemViewController.swift */; };
 		4AB293F221B0F8CD002D8FF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB293F121B0F8CD002D8FF6 /* AppDelegate.swift */; };
 		4AB293F421B0F8CD002D8FF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB293F321B0F8CD002D8FF6 /* ViewController.swift */; };
 		4AB293F721B0F8CD002D8FF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB293F521B0F8CD002D8FF6 /* Main.storyboard */; };
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A2C4F6A21D5F77700064CFA /* NotoSansCJKjp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Bold.otf"; sourceTree = "<group>"; };
+		4A2C4F6B21D5F77700064CFA /* yugothim.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yugothim.otf; sourceTree = "<group>"; };
+		4A2C4F6C21D5F77700064CFA /* NotoSansCJKjp-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Regular.otf"; sourceTree = "<group>"; };
+		4A2C4F6D21D5F77700064CFA /* hirakakupro-w6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hirakakupro-w6.otf"; sourceTree = "<group>"; };
+		4A2C4F6E21D5F77700064CFA /* yugothib.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yugothib.ttf; sourceTree = "<group>"; };
+		4A2C4F6F21D5F77700064CFA /* NotoSansCJKjp-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKjp-Medium.otf"; sourceTree = "<group>"; };
+		4A2C4F7621D5F8AC00064CFA /* DomicoUIDesign-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DomicoUIDesign-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A2C4F7A21D5F8CA00064CFA /* MenuItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
 		4AB293EE21B0F8CD002D8FF6 /* DomicoUIDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomicoUIDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB293F121B0F8CD002D8FF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AB293F321B0F8CD002D8FF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +89,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A2C4F6921D5F77700064CFA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C4F6A21D5F77700064CFA /* NotoSansCJKjp-Bold.otf */,
+				4A2C4F6B21D5F77700064CFA /* yugothim.otf */,
+				4A2C4F6C21D5F77700064CFA /* NotoSansCJKjp-Regular.otf */,
+				4A2C4F6D21D5F77700064CFA /* hirakakupro-w6.otf */,
+				4A2C4F6E21D5F77700064CFA /* yugothib.ttf */,
+				4A2C4F6F21D5F77700064CFA /* NotoSansCJKjp-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		4AB293E521B0F8CD002D8FF6 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +127,13 @@
 			children = (
 				4AB293F121B0F8CD002D8FF6 /* AppDelegate.swift */,
 				4AB293F321B0F8CD002D8FF6 /* ViewController.swift */,
+				4A2C4F7A21D5F8CA00064CFA /* MenuItemViewController.swift */,
 				4AB293F521B0F8CD002D8FF6 /* Main.storyboard */,
 				4AB293F821B0F8CE002D8FF6 /* Assets.xcassets */,
+				4A2C4F6921D5F77700064CFA /* Fonts */,
 				4AB293FA21B0F8CE002D8FF6 /* LaunchScreen.storyboard */,
 				4AB293FD21B0F8CE002D8FF6 /* Info.plist */,
+				4A2C4F7621D5F8AC00064CFA /* DomicoUIDesign-Bridging-Header.h */,
 			);
 			path = DomicoUIDesign;
 			sourceTree = "<group>";
@@ -193,6 +224,7 @@
 				TargetAttributes = {
 					4AB293ED21B0F8CD002D8FF6 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					4AB2940121B0F8CE002D8FF6 = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,8 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2C4F7221D5F77700064CFA /* NotoSansCJKjp-Regular.otf in Resources */,
 				4AB293FC21B0F8CE002D8FF6 /* LaunchScreen.storyboard in Resources */,
+				4A2C4F7521D5F77700064CFA /* NotoSansCJKjp-Medium.otf in Resources */,
 				4AB293F921B0F8CE002D8FF6 /* Assets.xcassets in Resources */,
+				4A2C4F7421D5F77700064CFA /* yugothib.ttf in Resources */,
+				4A2C4F7121D5F77700064CFA /* yugothim.otf in Resources */,
+				4A2C4F7021D5F77700064CFA /* NotoSansCJKjp-Bold.otf in Resources */,
+				4A2C4F7321D5F77700064CFA /* hirakakupro-w6.otf in Resources */,
 				4AB293F721B0F8CD002D8FF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2C4F7B21D5F8CA00064CFA /* MenuItemViewController.swift in Sources */,
 				4AB293F421B0F8CD002D8FF6 /* ViewController.swift in Sources */,
 				4AB293F221B0F8CD002D8FF6 /* AppDelegate.swift in Sources */,
 			);
@@ -434,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DomicoUIDesign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -442,6 +482,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjitgroup.DomicoUIDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DomicoUIDesign/DomicoUIDesign-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DomicoUIDesign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,6 +502,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjitgroup.DomicoUIDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DomicoUIDesign/DomicoUIDesign-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
